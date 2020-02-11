@@ -30,18 +30,18 @@ cd est une commande interne au shell. On ne peut utiliser sudo sur les commandes
 
 ### Commandes importantes
 
-1. `date` permet d'afficher la date et l'heure
-`date "+%H:%M:%S` si on veut seulement l'heure
-2. `time` execute un programme donné et affiche des informations sur les ressources utilisées 
-3. `which ls` 
+1. `date` permet d'afficher la date et l'heure  
+`date "+%H:%M:%S` si on veut seulement l'heure  
+2. `time` execute un programme donné et affiche des informations sur les ressources utilisées   
+3. `which ls`  
 le programme ls est situé dans usr/bin/ls
-4. Il n'existe pas d'entrée de manuel pour cette commande
-`alias ll =  'ls -alF'`___
-`ls` sert à afficher tous les fichiers du répertoire___
-`-a` pour afficher aussi les fichiers cachés___
-`-l` pour afficher les détails___
-`-F` ajoute un caractère à chaque nom de fichier pour indiquer son type___
-5. `ls /bin`
-6. `ls ..` permet d'afficher les fichiers du répertoire précédent (chemin relatif)
+4. Il n'existe pas d'entrée de manuel pour cette commande  
+`alias ll =  'ls -alF'`  
+`ls` sert à afficher tous les fichiers du répertoire  
+`-a` pour afficher aussi les fichiers cachés  
+`-l` pour afficher les détails  
+`-F` ajoute un caractère à chaque nom de fichier pour indiquer son type  
+5. `ls /bin`  
+6. `ls ..` permet d'afficher les fichiers du répertoire précédent (chemin relatif)  
 7. 
 
