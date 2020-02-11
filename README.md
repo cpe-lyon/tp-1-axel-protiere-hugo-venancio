@@ -8,8 +8,7 @@
 
 2. il faut saisir `/<MonMotAChercher>`
 
-3. 
-il faut appuyer sur q pour quitter le manuel
+3. il faut appuyer sur q pour quitter le manuel
 
 4. `man 6 <comande>`Cette section parle de jeux
 
@@ -43,5 +42,12 @@ le programme ls est situé dans usr/bin/ls
 `-F` ajoute un caractère à chaque nom de fichier pour indiquer son type  
 5. `ls /bin`  
 6. `ls ..` permet d'afficher les fichiers du répertoire précédent (chemin relatif)  
-7. 
+7. `pwd`
+8. `echo ‘yo’ > plop` → ecrit “yo” dans le fichier plop (remplacer)
+9. `echo ‘yo’ >> plop` → ecrit “yo” dans le fichier plop (écrire à la suite)
+10. `file` determine le type de fichier
+11. Le fichier titi possède le même contenu que le fichier toto, même quand ce dernier est mis à jour. En revanche, si on supprime toto, titi n'est pas supprimé
+12. Les deux fichiers sont liés, changer le contenu de l'un change le contenu de l'autre.  
+Si on supprime le fichier de base, le deuxième fichier (anciennement lié) n'existe plus, mais le lien est encore présent. Le fichier apparait en rouge dans `ls`
+13. 
 
