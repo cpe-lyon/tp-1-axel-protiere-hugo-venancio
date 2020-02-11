@@ -1,4 +1,4 @@
-# TP 1. Installation d’Ubuntu Server et priseen main du shell
+# TP 1. Installation d’Ubuntu Server et prise en main du shell
 
 ## Exercice 2. Prise en main de l’interpréteur de commandes
 
