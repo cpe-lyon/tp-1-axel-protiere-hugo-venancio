@@ -73,3 +73,6 @@ CTR + Q → Reprendre
 18. `getent passwd | wc -l`
 20. `find -name "passwd"`
 21. `find -name "passwd" > list_passwd_files.txt 2>/dev/null
+22. 
+23. `sudo apt install mlocate`  
+`locate history.log`
