@@ -36,6 +36,7 @@ cd est une commande interne au shell. On ne peut utiliser sudo sur les commandes
 3. `which ls` 
 le programme ls est situé dans usr/bin/ls
 4. Il n'existe pas d'entrée de manuel pour cette commande
-`alias ll =  'ls -alF'`\n
+`alias ll =  'ls -alF'`
+
 `man ls` 
 
