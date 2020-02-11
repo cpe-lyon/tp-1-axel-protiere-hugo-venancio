@@ -34,7 +34,7 @@ cd Dossier2
 mkdir Dossier2.1 & mkdir Dossier2.2
 cd Dossier2.2 & mkdir Fichier2 & mkdir Fichier3
 ```
-8.Fichier1 est correctement suprimé, mais erreur pour Dossier1 car c’est un dossier
+8. Fichier1 est correctement suprimé, mais erreur pour Dossier1 car c’est un dossier
 9. `rmdir Dossier1`
 10. Dossier2 n’est pas vide
 11. il faut utiliser `rm -rf Dossier2`
@@ -62,5 +62,8 @@ le programme ls est situé dans usr/bin/ls
 11. Le fichier titi possède le même contenu que le fichier toto, même quand ce dernier est mis à jour. En revanche, si on supprime toto, titi n'est pas supprimé
 12. Les deux fichiers sont liés, changer le contenu de l'un change le contenu de l'autre.  
 Si on supprime le fichier de base, le deuxième fichier (anciennement lié) n'existe plus, mais le lien est encore présent. Le fichier apparait en rouge dans `ls`
-13. 
+13. CTRL + S → Stopper  
+CTR + Q → Reprendre  
 
+16. Le fichier `/etc/passwd` stocke les informations essentielles requises lors de la connexion. 
+`man 5 passwd` permet d'afficher la page manuel de ce fichier
