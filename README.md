@@ -22,9 +22,9 @@
 `cd ..`
 5. essayez d’accéder au dossier /root ; que se passe-t-il ?
 cd /root → Permission denied
-6.`sudo cd /root`  Command not found
+6. `sudo cd /root`  Command not found
 cd est une commande interne au shell. On ne peut utiliser sudo sur les commandes internes. 
-7.
+7. 
 ```
 cd ~
 mkdir Dossier1 & mkdir Dossier2
