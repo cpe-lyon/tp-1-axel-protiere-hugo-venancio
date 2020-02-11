@@ -69,3 +69,5 @@ CTR + Q → Reprendre
 `dmesg | less` affiche donc les messages du noyau page par page
 16. Le fichier `/etc/passwd` stocke les informations essentielles requises lors de la connexion. 
 `man 5 passwd` permet d'afficher la page manuel de ce fichier
+17. `cut -c1 /etc/passwd | sort -r`
+18. `getent passwd | wc -l`
