@@ -64,6 +64,8 @@ le programme ls est situé dans usr/bin/ls
 Si on supprime le fichier de base, le deuxième fichier (anciennement lié) n'existe plus, mais le lien est encore présent. Le fichier apparait en rouge dans `ls`
 13. CTRL + S → Stopper  
 CTR + Q → Reprendre  
-
+14. `head -5 <file>`  `tail -n 5 <file>`  `head -20 <file> | tail -n 10 `
+15. Less : Lire un fichier page par page, dmesg : afficher les logs (messages) du noyau
+`dmesg | less` affiche donc les messages du noyau page par page
 16. Le fichier `/etc/passwd` stocke les informations essentielles requises lors de la connexion. 
 `man 5 passwd` permet d'afficher la page manuel de ce fichier
