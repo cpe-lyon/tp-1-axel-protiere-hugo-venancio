@@ -22,8 +22,8 @@
 `cd ..`
 5. essayez d’accéder au dossier /root ; que se passe-t-il ?
 cd /root → Permission denied
-6.`sudo cd /root` → Command not found
-cd est une commande interne au shell. On ne peut utiliser sudo sur les commandes internes.
+6.`sudo cd /root`  Command not found
+cd est une commande interne au shell. On ne peut utiliser sudo sur les commandes internes. 
 7.
 ```
 cd ~
@@ -33,7 +33,7 @@ cd ..
 cd Dossier2
 mkdir Dossier2.1 & mkdir Dossier2.2
 cd Dossier2.2 & mkdir Fichier2 & mkdir Fichier3
-```  
+```
 8.Fichier1 est correctement suprimé, mais erreur pour Dossier1 car c’est un dossier
 9. `rmdir Dossier1`
 10. Dossier2 n’est pas vide
