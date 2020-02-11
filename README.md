@@ -71,3 +71,4 @@ CTR + Q → Reprendre
 `man 5 passwd` permet d'afficher la page manuel de ce fichier
 17. `cut -c1 /etc/passwd | sort -r`
 18. `getent passwd | wc -l`
+20. `find -name "passwd"
