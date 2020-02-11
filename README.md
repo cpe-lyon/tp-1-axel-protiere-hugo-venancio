@@ -76,3 +76,4 @@ CTR + Q → Reprendre
 22. 
 23. `sudo apt install mlocate`  
 `locate history.log`
+24. Non, locate ne trouve pas le fichier
