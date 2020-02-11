@@ -3,7 +3,11 @@
 ## Exercice 2. Prise en main de l’interpréteur de commandes
 
 ### 1. 
-which returnes the pathneames of the files (or links) which would be executed in the environment...
-
 `man which` 
+which retourne le chemin du fichier associé à l'execution d'une commande
 
+### 2. 
+il faut saisir `/<MonMotAChercher>`
+
+### 3. 
+il faut appuyer sur q pour quitter le manuel
